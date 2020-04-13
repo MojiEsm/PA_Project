@@ -7,7 +7,8 @@ mongoose.Promise = global.Promise;
 mongoose.connect(config.get('MONGOURI'),{
     useNewUrlParser:true,
     useUnifiedTopology:true,
-    useFindAndModify:false
+    useFindAndModify:false,
+    useCreateIndex:true
 });
 
 module.exports={
