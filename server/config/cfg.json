@@ -1,0 +1,10 @@
+{
+    "development":{
+        "MONGOURI":"mongodb://localhost:27017/PA_DB",
+        "PORT":3000
+    },
+    "test":{
+        "PORT":3000,
+        "MONGOURI":"mongodb://localhost:27017/PA_DB_Test"
+    }
+}
