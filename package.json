@@ -19,6 +19,6 @@
     "loadsh": "0.0.4",
     "mongodb": "^3.5.5",
     "mongoose": "^5.9.7",
-    "validator": "^13.0.0"
+    "validator": "^13.7.0"
   }
 }
